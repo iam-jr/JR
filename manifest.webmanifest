@@ -1,0 +1,24 @@
+{
+  "name": "JR | Artista Urbano",
+  "short_name": "JR",
+  "description": "JR - Artista urbano. Nueva musica, videos, shows en vivo y contrataciones.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08101c",
+  "theme_color": "#ff7a00",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "img/logojrofficial.JPG",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/logojrofficial.JPG",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

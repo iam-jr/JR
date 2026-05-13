@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JR</title>
+	<meta name="description" content="JR - Artista urbano. Nueva musica, videos, shows en vivo y contrataciones.">
+	<meta name="google" content="notranslate">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Favicon & PWA -->
+	<link rel="icon" href="img/logojrofficial.JPG" type="image/jpeg">
+	<link rel="apple-touch-icon" href="img/logojrofficial.JPG">
+	<link rel="manifest" href="manifest.webmanifest">
+	<meta name="theme-color" content="#ff7a00">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="JR">
+</head>
+<body>
+	<div class="ambient-layer" aria-hidden="true">
+		<div class="orb orb-a" data-speed="0.12"></div>
+		<div class="orb orb-b" data-speed="0.07"></div>
+		<div class="orb orb-c" data-speed="0.16"></div>
+		<div class="grid-fx"></div>
+	</div>
+
+	<header class="app-header" id="top-header">
+		<div class="brand-pill">
+			<span class="dot-live"></span>
+			<span>JR LIVE</span>
+		</div>
+		<img src="img/logojrofficial.JPG" class="header-logo-circle" alt="JR">
+		<a class="btn-mini" href="#contacto">Booking</a>
+	</header>
+
+	<main>
+		<section class="hero section reveal" id="inicio">
+			<div class="hero-grid">
+				<div class="hero-copy-col">
+					<p class="kicker">Puerto Rico / Latino Urbano</p>
+					<h1>
+						<span>JR</span>
+						<strong>EL KIN</strong>
+					</h1>
+					<p class="hero-copy">
+						Ritmo callejero con direccion global. Historias reales convertidas en temas que impactan tarima, streaming y cultura.
+					</p>
+					<div class="hero-actions">
+						<a href="#musica" class="btn btn-primary">Escuchar ahora</a>
+						<a href="#videos" class="btn btn-secondary">Ver bio</a>
+					</div>
+				</div>
+				<aside class="hero-panel" aria-label="Resumen del artista">
+					<p class="panel-title">Redes Sociales</p>
+					<ul>
+						<li><span>+1.2M</span> streams acumulados</li>
+						<li><span>140K</span> seguidores en crecimiento</li>
+						<li><span>32</span> shows en vivo</li>
+					</ul>
+					<a href="#shows" class="inline-link">Agenda abierta 2026</a>
+				</aside>
+			</div>
+
+			<div class="ticker" aria-label="Estilos musicales">
+				<span>Reggaeton</span>
+				<span>Trap Latino</span>
+				<span>Melodico</span>
+				<span>Club Anthems</span>
+				<span>Street Poetry</span>
+			</div>
+		</section>
+
+		<section class="section reveal" id="musica">
+			<div class="section-head music-head">
+				<div class="music-head-copy">
+					<p class="eyebrow">Discografia</p>
+					<h2>Musica</h2>
+					<p class="music-head-subtitle">Todos los temas oficiales de JR organizados para escuchar rapido.</p>
+				</div>
+				<div class="music-head-actions">
+					<a href="https://soundcloud.com/jrjeremyrey" class="inline-link" target="_blank" rel="noopener noreferrer"><img class="soundcloud-logo" src="soundcloud-logo.svg" alt="" aria-hidden="true">Escuchar en SoundCloud</a>
+					<a href="https://soundcloud.com/jrjeremyrey/tracks" class="inline-link inline-link-soft" target="_blank" rel="noopener noreferrer"><img class="soundcloud-logo" src="soundcloud-logo.svg" alt="" aria-hidden="true">Ver catalogo</a>
+				</div>
+			</div>
+
+			<div class="music-card featured-track">
+				<p class="tag">Proximo lanzamiento</p>
+				<h3 class="notranslate" translate="no">Over (Spanish Version)</h3>
+				<p>Single 2026 / Hip melodico con vibra nocturna</p>
+				<div class="music-actions">
+					<a href="https://soundcloud.com/jrjeremyrey" class="chip" target="_blank" rel="noopener noreferrer"><img class="soundcloud-logo" src="soundcloud-logo.svg" alt="" aria-hidden="true">SoundCloud</a>
+				</div>
+			</div>
+
+			<div class="music-layout">
+				<div class="music-card soundcloud-block">
+					<p class="tag">Catalogo oficial</p>
+					<h3>JR en SoundCloud</h3>
+					<p>Escucha releases, demos y sessions directamente desde el perfil oficial.</p>
+					<a class="soundcloud-redirect" href="https://soundcloud.com/jrjeremyrey" target="_blank" rel="noopener noreferrer"><img class="soundcloud-logo" src="soundcloud-logo.svg" alt="" aria-hidden="true">Ir al perfil oficial en SoundCloud</a>
+				</div>
+
+				<div class="music-card now-playing-card" id="player-jr">
+					<div class="now-playing-head">
+						<img id="now-playing-artwork" class="now-playing-artwork" src="soundcloud-cover.svg" alt="Logo de SoundCloud">
+						<div>
+							<p class="tag">SoundCloud</p>
+							<h3 id="now-playing-title" class="notranslate" translate="no">Reproduccion disponible solo en SoundCloud</h3>
+						</div>
+					</div>
+					<p class="soundcloud-note">Selecciona un tema y te redirigimos a SoundCloud para escucharlo completo.</p>
+					<a class="soundcloud-redirect" href="https://soundcloud.com/jrjeremyrey" target="_blank" rel="noopener noreferrer"><img class="soundcloud-logo" src="soundcloud-logo.svg" alt="" aria-hidden="true">Ver SoundCloud</a>
+				</div>
+			</div>
+
+			<div class="track-list">
+				<article class="music-card">
+					<span>01</span>
+					<div>
+						<h4 class="notranslate" translate="no">Querer Sin Saber</h4>
+						<p>JR</p>
+					</div>
+					<button class="play-btn" type="button" data-url="https://soundcloud.com/jrjeremyrey/querer-sin-saber" data-title="Querer Sin Saber" aria-label="Ver Querer Sin Saber en SoundCloud">Ver</button>
+				</article>
+				<article class="music-card">
+					<span>02</span>
+					<div>
+						<h4 class="notranslate" translate="no">De Nuevo</h4>
+						<p>JR</p>
+					</div>
+					<button class="play-btn" type="button" data-url="https://soundcloud.com/jrjeremyrey/de-nuevo" data-title="De Nuevo" aria-label="Ver De Nuevo en SoundCloud">Ver</button>
+				</article>
+				<article class="music-card">
+					<span>03</span>
+					<div>
+						<h4 class="notranslate" translate="no">No Se Deja Ver</h4>
+						<p>JR</p>
+					</div>
+					<button class="play-btn" type="button" data-url="https://soundcloud.com/jrjeremyrey/no-se-deja-ver" data-title="No Se Deja Ver" aria-label="Ver No Se Deja Ver en SoundCloud">Ver</button>
+				</article>
+				<article class="music-card">
+					<span>04</span>
+					<div>
+						<h4 class="notranslate" translate="no">Phillie Prendio</h4>
+						<p>JR</p>
+					</div>
+					<button class="play-btn" type="button" data-url="https://soundcloud.com/jrjeremyrey/phillie-prendio-wav" data-title="Phillie Prendio" aria-label="Ver Phillie Prendio en SoundCloud">Ver</button>
+				</article>
+				<article class="music-card">
+					<span>05</span>
+					<div>
+						<h4 class="notranslate" translate="no">No Me Contradigo</h4>
+						<p>JR</p>
+					</div>
+					<button class="play-btn" type="button" data-url="https://soundcloud.com/jrjeremyrey/no-me-contradigo" data-title="No Me Contradigo" aria-label="Ver No Me Contradigo en SoundCloud">Ver</button>
+				</article>
+				<article class="music-card">
+					<span>06</span>
+					<div>
+						<h4 class="notranslate" translate="no">No Sales De Mi Mente</h4>
+						<p>JR</p>
+					</div>
+					<button class="play-btn" type="button" data-url="https://soundcloud.com/jrjeremyrey/no-sales-de-mi-mente" data-title="No Sales De Mi Mente" aria-label="Ver No Sales De Mi Mente en SoundCloud">Ver</button>
+				</article>
+			</div>
+
+			<div class="music-card more-tracks-panel" id="more-tracks-panel">
+				<p class="tag">Catalogo completo</p>
+				<h3>JR en SoundCloud</h3>
+				<p>Para ver todos los temas, entra directo al catalogo oficial.</p>
+				<a class="soundcloud-redirect" href="https://soundcloud.com/jrjeremyrey/tracks" target="_blank" rel="noopener noreferrer"><img class="soundcloud-logo" src="soundcloud-logo.svg" alt="" aria-hidden="true">Ver las canciones en SoundCloud</a>
+			</div>
+		</section>
+
+		<section class="section reveal" id="videos">
+			<div class="section-head">
+				<div>
+					<p class="eyebrow">Visual Story</p>
+					<h2>Videos</h2>
+				</div>
+				<a href="#" class="inline-link">Canal oficial</a>
+			</div>
+			<div class="video-grid">
+				<article class="video-card" style="cursor:pointer;" onclick="window.open('https://www.instagram.com/jrthekin6','_blank','noopener,noreferrer')">
+					<p>Video Oficial</p>
+					<h3>Ultima Vez</h3>
+					<span>Instagram</span>
+				</article>
+				<article class="video-card" style="cursor:pointer;" onclick="window.open('https://www.youtube.com','_blank','noopener,noreferrer')">
+					<p>Session</p>
+					<h3>JR Live Session Vol.1</h3>
+					<span>Freestyle</span>
+				</article>
+			</div>
+		</section>
+
+		<section class="section reveal" id="bio">
+			<div class="section-head">
+				<div>
+					<p class="eyebrow">Perfil</p>
+					<h2>Bio</h2>
+				</div>
+			</div>
+			<p class="bio-copy">
+				JR es un artista urbano con identidad, letras autenticas y un sonido que mezcla hooks melodicos. Su propuesta visual y musical lo posiciona como una voz fresca para la escena global.
+			</p>
+			<div class="press-points">
+				<span>Ready</span>
+				<span>Show Performer</span>
+				<span>Latino Urban</span>
+				<span>Media Friendly</span>
+			</div>
+		</section>
+
+		<section class="section reveal" id="shows">
+			<div class="section-head">
+				<div>
+					<p class="eyebrow">Live Dates</p>
+					<h2>Proximos Shows</h2>
+				</div>
+			</div>
+			<div class="shows-list">
+				<article>
+					<div>
+						<h3>Puerto Rico Urban Fest</h3>
+						<p>25 Junio 2026 / Miami, FL</p>
+					</div>
+					<a href="#" class="ticket-link">Tickets</a>
+				</article>
+				<article>
+					<div>
+						<h3>Madrid Noche Latina</h3>
+						<p>09 Julio 2026 / Madrid, ES</p>
+					</div>
+					<a href="#" class="ticket-link">Tickets</a>
+				</article>
+				<article>
+					<div>
+						<h3>Colombia Flow Stage</h3>
+						<p>22 Agosto 2026 / Bogota, CO</p>
+					</div>
+					<a href="#" class="ticket-link">Tickets</a>
+				</article>
+			</div>
+		</section>
+
+		<section class="section reveal" id="contacto">
+			<div class="section-head">
+				<div>
+					<p class="eyebrow">Management</p>
+					<h2>Booking & Contacto</h2>
+				</div>
+			</div>
+			<div class="contact-card">
+				<p>Para contrataciones, colaboraciones, prensa y eventos:</p>
+				<a href="mailto:bookingjr@music.com">iam.jr@hotmail.com</a>
+				<a href="tel:+17870000000">+1 (787) 660-0000</a>
+				<div class="socials">
+					<a href="https://www.instagram.com/jrthekin6" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img class="social-icon" src="instagram-logo.svg" alt="" aria-hidden="true">Instagram</a>
+					<a href="https://soundcloud.com/jrjeremyrey" target="_blank" rel="noopener noreferrer" aria-label="SoundCloud"><img class="soundcloud-logo social-icon" src="soundcloud-logo.svg" alt="" aria-hidden="true">SoundCloud</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<nav class="bottom-nav" aria-label="Navegacion principal">
+		<a href="#inicio" class="active">Inicio</a>
+		<a href="#musica">Musica</a>
+		<a href="#videos">Videos</a>
+		<a href="#shows">Shows</a>
+		<a href="#contacto">Contacto</a>
+	</nav>
+
+	<script src="script.js"></script>
+</body>
+</html>
